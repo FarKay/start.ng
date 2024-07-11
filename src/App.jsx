@@ -312,16 +312,16 @@ function App() {
         </div>
 
         <div className="h-[572px]">
-          <div className="flex h-[572PX] flex-col items-center bg-[#2D9993]">
-            <div>
+          <div className="flex h-[472PX] flex-col items-center bg-[#2D9993] py-5">
+            <div className="my-3">
               <div className="text-[37px] font-bold leading-[55.5px] text-[#FFFFFF]">
                 Meet the Finalist
               </div>
               <div className="bg-[#27E0CC] lg:h-[5px] lg:w-[85px]"></div>
             </div>
             <div className="flex h-[291px] w-[525px] flex-col items-center justify-center text-center">
-              <div className="flex flex-col items-center">
-                <div className="h-[101px] w-[101px] rounded-full bg-[#3895D3]">
+              <div className="flex flex-col items-center py-4">
+                <div className="my-3 h-[101px] w-[101px] rounded-full bg-[#3895D3]">
                   <img src="pp.png" alt="a picture" />
                 </div>
                 <div className="h-[90px] w-[525px] text-center text-[20px] font-light leading-[30px] text-[#E0E0E0]">
@@ -339,11 +339,11 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-row lg:h-[66px]">
+            <div className="mt-8 flex flex-row lg:h-[66px]">
               <div>
                 <img src="ellipse-1.png" alt="white-circle" />
               </div>
-              <div>
+              <div className="mx-3">
                 <img src="ellipse-2.png" alt="white-circle" />
               </div>
               <div>
@@ -353,13 +353,13 @@ function App() {
           </div>
         </div>
 
-        <div className="relative left-[100px] flex h-[239px] w-[1240px] flex-col py-10">
+        <div className="relative left-[100px] flex h-[239px] w-[1240px] flex-col">
           <div className="flex flex-row gap-60">
             <div className="text-[36px] font-extrabold leading-[54px]">
               Start<span className="text-[#2D9993]">.ng</span>
             </div>
             <div className="flex h-[168px] w-[913px] gap-16">
-              <div className="h-[168px] w-[163px] text-[#333333]">
+              <div className="flex h-[168px] w-[163px] flex-col gap-[10px] text-[#333333]">
                 <div className="text-[20px] font-semibold leading-[30px]">
                   Quick Links
                 </div>
@@ -378,7 +378,7 @@ function App() {
                   </li>
                 </ul>
               </div>
-              <div className="h-[153px] w-[176px] text-wrap px-5 text-[#333333]">
+              <div className="flex h-[153px] w-[176px] flex-col gap-[10px] text-wrap px-5 text-[#333333]">
                 <div className="text-[20px] font-semibold leading-[30px]">
                   Office Address
                 </div>
@@ -386,7 +386,7 @@ function App() {
                   3 Birrel Avenue, Sabo. Yaba, Lagos State, Nigeria
                 </div>
               </div>
-              <div className="h-[104px] w-[162px] text-[#333333]">
+              <div className="flex h-[104px] w-[162px] flex-col gap-[10px] text-[#333333]">
                 <div className="text-[20px] font-semibold leading-[30px]">
                   Contact Us
                 </div>
@@ -395,15 +395,15 @@ function App() {
                   <div>startng@info.com</div>
                 </div>
               </div>
-              <div>
-                <div className="text-[20px] font-semibold leading-[30px] text-[#333333]">
+              <div className="flex flex-col gap-[10px] text-[#333333]">
+                <div className="text-[20px] font-semibold leading-[30px]">
                   Follow Us
                 </div>
                 <div className="flex h-[24px] w-[112px] flex-row">
                   <div>
                     <img src="facebook.png" alt="facebook-logo" />
                   </div>
-                  <div>
+                  <div className="mx-3">
                     <img src="instagram.png" alt="facebook-logo" />
                   </div>
                   <div>
