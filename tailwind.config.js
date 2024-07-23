@@ -6,6 +6,9 @@ export default {
       backgroundImage: {
         "custom-image": " url('/bg-img.jpg')",
       },
+      fontFamily: {
+        sans: ["Poppins, sans-serif"],
+      },
     },
   },
   plugins: [],
